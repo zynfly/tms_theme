@@ -70,6 +70,16 @@ $theme->providers($theme->config('theme.providers', []));
 
 /*
 |--------------------------------------------------------------------------
+| Theme Hooks
+|--------------------------------------------------------------------------
+|
+| Register theme hooks. You can manage the list of hooks
+| through the theme.php configuration file.
+|
+*/
+$theme->hooks($theme->config('theme.hooks', []));
+/*
+|--------------------------------------------------------------------------
 | Theme includes
 |--------------------------------------------------------------------------
 |
